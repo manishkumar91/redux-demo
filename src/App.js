@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import LocalStateComponent from './components/LocalStateComponent';
+import ReduxStateAdvanceComponent from './components/ReduxStateAdvanceComponent';
+import ReduxStateComponent from './components/ReduxStateComponent';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <LocalStateComponent />
+      <ReduxStateComponent />
+      <ReduxStateAdvanceComponent />
     </div>
   );
 }
